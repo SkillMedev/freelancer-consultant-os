@@ -9,7 +9,7 @@ Reach for this when you freelance or consult solo and the business side keeps le
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/freelancer-consultant-os](https://skillme.dev/pack/freelancer-consultant-os) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/freelancer-consultant-os`
+- **With the skills CLI:** `npx skills add SkillMedev/freelancer-consultant-os`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack

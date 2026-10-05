@@ -1,16 +1,17 @@
 # Freelancer / Consultant OS
 
-**For solo freelancers: position, productize, price, and run client work like a business.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For solo freelancers: position, productize, price, and run client work like a business.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-freelancer-consultant-os).
 
 Reach for this when you freelance or consult solo and the business side keeps leaking money - vague positioning, hourly billing that caps income, scope creep you eat, and clients who wonder what they're paying for. It runs the whole operating loop: pick a niche and positioning that commands premium rates, package custom work into fixed-scope productized offers, price retainers from real capacity math instead of guesses, write SOWs that prevent disputes, onboard clients to a professional first impression, convert scope creep into paid change orders, raise rates without losing the book, and send the weekly report that makes renewals automatic. One worked example - a designer moving from $75/hr to productized retainers - threads through every skill so the numbers compose.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/freelancer-consultant-os](https://skillme.dev/pack/freelancer-consultant-os) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/freelancer-consultant-os?utm_source=github&utm_medium=readme&utm_campaign=pack-freelancer-consultant-os) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add freelance-positioning productized-service-designer retainer-pricing-calculator statement-of-work-writer client-onboarding-system scope-creep-defense raise-your-rates-playbook client-status-reporting sales-proposal-writer cold-email-craft --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/freelancer-consultant-os`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -28,4 +29,4 @@ Reach for this when you freelance or consult solo and the business side keeps le
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-freelancer-consultant-os).
